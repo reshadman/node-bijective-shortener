@@ -1,5 +1,4 @@
-module.exports = {};
-var exports = module.exports;
+var exports = {};
 
 exports.allowedChars = 'YRCAtS2qcL06JzFeWIsf9HbwgVPUoOkrZpaGm47vjNEuMT1dynlDxXhQK8i5B3';
 
@@ -49,3 +48,5 @@ function checkInteger(intNumber){
 	if(! isInteger(intNumber)) throw new Error("The passed number should be a valid integer");
 	if(intNumber <= 0) throw new Error("The passed number should be larger or eq to 0");	
 }
+
+module.exports = exports;
