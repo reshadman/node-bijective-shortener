@@ -1,0 +1,26 @@
+{
+  "name": "bijective-shortener",
+  "version": "0.0.0",
+  "description": "Shorten long integers in base 10 to very short strings in a longer base.",
+  "main": "src/bijective-shortener.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha tests/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reshadman/node-bijective-shortener.git"
+  },
+  "keywords": [
+    "node",
+    "bijective-shortener",
+    "base-shortener"
+  ],
+  "author": "Reza Shadman <pcfeeler@gmail.com> (http://rezashadman.ir/)",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/reshadman/node-bijective-shortener/issues"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.1"
+  }
+}
