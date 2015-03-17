@@ -2,7 +2,7 @@
   "name": "bijective-shortener",
   "version": "0.1.0",
   "description": "Shorten long integers in base 10 to very short strings in a longer base.",
-  "main": "src/bijective-shortener.js",
+  "main": "./src",
   "scripts": {
     "test": "./node_modules/.bin/mocha tests/"
   },
