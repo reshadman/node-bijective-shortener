@@ -8,7 +8,7 @@ exports.makeFromInteger = function(intNumber){
 	
 	checkInteger(intNumber);
 
-	if(intNumber === 0) return allowedChars[0];
+	if(intNumber === 0) return exports.allowedChars[0];
 
 	var outputString = '',
 		base = exports.allowedChars.length;
@@ -46,7 +46,7 @@ function isInteger(string){
 
 function checkInteger(intNumber){
 	if(! isInteger(intNumber)) throw new Error("The passed number should be a valid integer");
-	if(intNumber <= 0) throw new Error("The passed number should be larger or eq to 0");	
+	if(intNumber < 0) throw new Error("The passed number should be larger or eq to 0");	
 }
 
 module.exports = exports;
