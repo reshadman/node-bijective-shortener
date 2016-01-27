@@ -7,7 +7,7 @@ describe("BijectiveShortener", function(){
 			var obj = {},
 				shortened;
 
-			for(var i = 500000; i < 600000; i++){
+			for(var i = 0; i < 600000; i++){
 				shortened = bijective.makeFromInteger(i);
 				assert.equal(false, obj.hasOwnProperty(shortened));
 				assert.equal(i, bijective.decodeToInteger(shortened));
